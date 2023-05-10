@@ -7,7 +7,7 @@ A starting point for developing your own external plug-in for Auto-GPT
 
 1. **Clone or download the plugin repository:**
    Clone the plugin repository, or download the repository as a zip file.
-  
+
    ![Download Zip](https://raw.githubusercontent.com/BillSchumacher/Auto-GPT/master/plugin.png)
 
 2. **Install the plugin's dependencies (if any):**
