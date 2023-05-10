@@ -1,11 +1,6 @@
 repos:
-  - repo: https://github.com/sourcery-ai/sourcery
-    rev: v1.1.0 # Get the latest tag from https://github.com/sourcery-ai/sourcery/tags
-    hooks:
-      - id: sourcery
-
   - repo: https://github.com/pre-commit/pre-commit-hooks
-    rev: v0.9.2
+    rev: v4.4.0
     hooks:
       - id: check-added-large-files
         args: [ '--maxkb=500' ]
@@ -14,7 +9,12 @@ repos:
       - id: check-merge-conflict
       - id: check-symlinks
       - id: debug-statements
-    
+      - id: end-of-file-fixer
+      - id: detect-private-key
+      - id: forbid-submodules
+      - id: mixed-line-ending
+      - id: trailing-whitespace
+
   - repo: local
     hooks:
       - id: isort
